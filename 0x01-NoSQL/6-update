@@ -1,0 +1,6 @@
+// updates all documents that match criteria in a collection
+
+db.school.updateMany(
+	{ name: { $eq: "Holberton school" }}
+	{ $set: { address: “972 Mission street” }}
+)
