@@ -1,0 +1,3 @@
+// deletes records that match a certain criteria
+
+db.school.deleteMany({ name: "Holberton school"})
